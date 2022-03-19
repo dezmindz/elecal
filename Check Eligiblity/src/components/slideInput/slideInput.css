@@ -1,0 +1,97 @@
+#rangeIp{
+	background: #d3d3d3;
+  	height: 15px;
+  	-webkit-appearance: none;
+  	margin: 10px 0;
+  	width: 100%;
+    border: 1px solid black;
+
+  }
+  #rangeIp:focus {
+    outline: none;
+}
+  #rangeIp::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 40px;
+  background: #4CAF50;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#inputIp{
+  color:#4caf50;
+   font-weight: 600;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:1px solid grey;
+    background: transparent;
+    width: 180px;
+}
+#inputIp:focus,textarea:focus,select:focus{
+  outline: none;
+}
+.ransc-con{
+  display: flex;
+
+}
+
+.ranSc{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;   
+}
+.ranSc25{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;   
+  flex-basis: 100%
+ 
+}
+.ranSc50{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;   
+    flex-basis: 100%
+  
+  
+}
+
+.ranSc{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;   
+    flex-basis: 100%;
+}
+label{
+  color:#4caf50;
+}
+.CalObli{
+  margin-top: -47px;
+  display: flex;
+}
+.salcon{
+  margin-bottom: 0px
+}
+.salinpIP{
+  margin-top:-60px;
+}
+.sideIP{
+  border-radius:25px 25px 0 0;
+}
